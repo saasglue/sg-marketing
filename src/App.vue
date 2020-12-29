@@ -163,6 +163,7 @@ html, body {
   }
   .blurb-item {
     font-size: calc(12px + 1vw);
+    margin-bottom: 15px;
   }
   .promo-video {
     
@@ -177,11 +178,11 @@ html, body {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .blurb-item {
-    margin-bottom: 15px;
-  }
   .spaced-skew {
 
+  }
+  .blurb-list-item {
+    font-size: 10px;
   }
 }
 
@@ -220,6 +221,9 @@ html, body {
   }
   .spaced-skew {
     margin-top: calc(60px + 4vw);
+  }
+  .blurb-list-item {
+    font-size: 18px;
   }
 }
 
@@ -354,6 +358,10 @@ html, body {
   font-size: 20px;
 }
 
+.white {
+  color: white;
+}
+
 .main-nav-link {
   margin-left: 12px;
   margin-right: 12px;
@@ -433,6 +441,22 @@ html, body {
   display: flex; 
 }
 
+.blurb-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+}
+
+.blurb-list-item {
+  text-align: left;
+}
+
+.blurb-list div::first-letter {
+  font-size: calc(12px + 1vw);
+}
+
+
 .promo-video {
   border-radius: 5px;
 }
@@ -442,6 +466,8 @@ html, body {
   display: flex;
   justify-content: center;
   font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .blurb-image {

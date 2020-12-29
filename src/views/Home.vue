@@ -9,7 +9,7 @@
     </div>
 
 
-    <div class="blurb-outer-container">
+    <div class="blurb-outer-container" style="margin-top: 75px;">
       <div class="blurb-container">
         <div class="blurb-spacer"> </div>
         <div class="blurb-item">
@@ -26,12 +26,13 @@
     </div>
 
 
-    <div class="skew-background skew-background-up spaced-skew" style="min-height: 350px;">
-      <div class="skew-content-up">
+    <div class="skew-background skew-background-down spaced-skew" style="min-height: 350px;">
+      <div class="skew-content-down">
         <div class="blurb-title">
           <p>Get started in as little as 5 minutes</p>
         </div>
         <div class="blurb-outer-container">
+          <div class="blurb-spacer"> </div>
           <div class="blurb-container">
             <div class="blurb-item">
               <img class="blurb-image" src="GetStartedDude.png" width="400px">
@@ -47,16 +48,17 @@
                 Provide a name and contact information and you’re ready to go.
               </div>
             </div>
-            <div class="blurb-spacer"> </div>
           </div>
         </div>
       </div>
     </div>
 
 
-    <div class="blurb-outer-container">
+    <div class="blurb-outer-container" style="margin-top: 75px;">
       <div class="blurb-container">
-        <div class="blurb-spacer"> </div>
+        <div class="blurb-item">
+          <img class="blurb-image" src="InstallAgentDude.png" width="400px">
+        </div>
         <div class="blurb-item">
           <div class="step-instructions">
             <img src="2BlueCircle.png"> 
@@ -70,17 +72,16 @@
             </div>
           </div>
         </div>
-        <div class="blurb-item">
-          <img class="blurb-image" src="InstallAgentDude.png" width="400px">
-        </div>
+        <div class="blurb-spacer"> </div>
       </div>
     </div>
 
 
-    <div class="skew-background skew-background-down" style="min-height: 350px;">
-      <div class="skew-content-down">
+    <div class="skew-background skew-background-up" style="min-height: 350px;">
+      <div class="skew-content-up">
         <div class="blurb-outer-container">
           <div class="blurb-container">
+            <div class="blurb-spacer"> </div>
             <div class="blurb-item">
               <img class="blurb-image" src="CreateScriptChick.png" width="400px">
             </div>
@@ -95,7 +96,6 @@
                 Upload a script or create one in saas glue.  Use any language you want.
               </div>
             </div>
-            <div class="blurb-spacer"> </div>
           </div>
         </div>
       </div>
@@ -104,7 +104,9 @@
 
     <div class="blurb-outer-container" style="margin-top: calc(40px + 2vw);">
       <div class="blurb-container">
-        <div class="blurb-spacer"> </div>
+        <div class="blurb-item">
+          <img class="blurb-image" src="RunScriptChick.png" width="400px">
+        </div>
         <div class="blurb-item">
           <div class="step-instructions">
             <img src="4GreenCircle.png"> 
@@ -118,17 +120,16 @@
             </div>
           </div>
         </div>
-        <div class="blurb-item">
-          <img class="blurb-image" src="RunScriptChick.png" width="400px">
-        </div>
+        <div class="blurb-spacer"> </div>
       </div>
     </div>
 
 
-    <div class="skew-background skew-background-up" style="min-height: 350px;">
-      <div class="skew-content-up">
+    <div class="skew-background skew-background-down" style="min-height: 350px;">
+      <div class="skew-content-down">
         <div class="blurb-outer-container">
           <div class="blurb-container">
+            <div class="blurb-spacer"> </div>
             <div class="blurb-item">
               <img class="blurb-image" src="BuildAJobDude.png" width="400px">
             </div>
@@ -144,11 +145,12 @@
                 Set it to run automatically or trigger it through the API.
               </div>
             </div>
-            <div class="blurb-spacer"> </div>
+            
           </div>
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
