@@ -140,6 +140,11 @@ html, body {
   margin: 0;
 }
 
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
 .header {
   margin: 0;
 }
@@ -184,6 +189,9 @@ html, body {
   .blurb-list-item {
     font-size: 10px;
   }
+  .feature-box {
+    width: 350px;
+  }
 }
 
 
@@ -224,6 +232,9 @@ html, body {
   }
   .blurb-list-item {
     font-size: 18px;
+  }
+  .feature-box {
+    width: 30vw;
   }
 }
 
@@ -316,6 +327,12 @@ html, body {
   text-shadow: 0px 2px 1px rgb(150, 148, 148), 0px -2px 1px rgb(150, 148, 148), 2px 0px 1px rgb(150, 148, 148), -2px 0px 1px rgb(150, 148, 148);  
 }
 
+.banner {
+  font-size: calc(12px + 3vw);
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
 .try-it-button {
   font-size: calc(14px + 1vw);
   letter-spacing: 2px;
@@ -360,6 +377,10 @@ html, body {
 
 .white {
   color: white;
+}
+
+.dark {
+  color: #423F3F;
 }
 
 .main-nav-link {
@@ -522,9 +543,31 @@ html, body {
   font-size: calc(8px + 1vw);
 }
 
-a {
+.feature-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.feature-box {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.feature-box-title {
+  background-color: rgb(94, 146, 241);
   color: white;
-  text-decoration: none; /* no underline */
+  border-radius: 5px;
+  width: max-content;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.feature-box-text {
+  margin-top: 10px;
+  text-align: left;
 }
 
 </style>

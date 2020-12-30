@@ -68,7 +68,7 @@
           </div>
           <div class="step-text-bottom-dark">
             <div>
-              Download the agent and save it to your device.  It will call back to saas glue to establish a connection.
+              Download the agent and save it to your device.  It will call back to saas glue to establish a secure connection.
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@
         </div>
       </div>
     </div>
-    
+
   </div>
 </template>
 
