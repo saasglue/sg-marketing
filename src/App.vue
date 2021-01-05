@@ -121,6 +121,9 @@ export default class App extends Vue {
       case '/why':
         this.splashMessage = `Fill the gaps in your<br>process automation`;
         break;
+      case '/pricing':
+        this.splashMessage = `Free for basic use<br>Simple pricing`;
+        break;
       default:
         this.splashMessage = `Integrate Anything<br>Automate Everything`;
     }
@@ -164,7 +167,7 @@ a {
     display: block;
   }
   .main-top {
-    height: 500px;
+    height: 425px;
   }
   .blurb-spacer {
     width: 10px;
@@ -192,8 +195,14 @@ a {
   .blurb-list-item {
     font-size: 10px;
   }
+  .blurb-text {
+    width: 400px;
+  }
   .feature-box {
     width: 350px;
+  }
+  .blurb-list div::first-letter {
+    font-size: calc(12px + .25vw);
   }
 }
 
@@ -206,7 +215,7 @@ a {
     display: none;
   }
   .main-top {
-    height: 600px;
+    height: 625px;
   }
   .blurb-spacer {
     width: 400px;
@@ -230,6 +239,9 @@ a {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .blurb-text {
+    width: 50vw;
+  }
   .spaced-skew {
     margin-top: calc(60px + 4vw);
   }
@@ -238,6 +250,9 @@ a {
   }
   .feature-box {
     width: 30vw;
+  }
+  .blurb-list div::first-letter {
+    font-size: calc(18px + .25vw);
   }
 }
 
@@ -323,6 +338,7 @@ a {
 
 .splash-message {
   font-size: calc(20px + 3vw);
+  text-align: left;
   letter-spacing: 3px;
   margin-top: 100px;
   font-weight: 700;    
@@ -476,8 +492,9 @@ a {
   text-align: left;
 }
 
-.blurb-list div::first-letter {
-  font-size: calc(12px + 1vw);
+.blurb-text {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 

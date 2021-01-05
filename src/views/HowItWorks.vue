@@ -102,9 +102,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">The agent hands off scripts to a local interpreter for execution.  This architecture lets saas glue work with any scripting language, including those that have not yet been created. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">The agent hands off scripts to a local interpreter for execution.  This architecture lets saas glue work with any scripting language, including those that have not yet been created. </div>
               </div>
               <br><br>
               <div class="step-instructions">
@@ -113,9 +111,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">Saas glue defines a set of common scripting languages for easy development.  However, you can specify any interpreter, and you can specify which version to use when there are multiple installed. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">Saas glue defines a set of common scripting languages for easy development.  However, you can specify any interpreter, and you can specify which version to use when there are multiple installed. </div>
               </div>
 
               <br><br>
@@ -125,9 +121,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">You can store artifacts of compiled code in saas glue, which can be delivered to the local runtime environment for script execution.  Or you can call locally installed applications from your script. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">You can store artifacts of compiled code in saas glue, which can be delivered to the local runtime environment for script execution.  Or you can call locally installed applications from your script. </div>
               </div>
             </div>
           </div>
@@ -151,9 +145,7 @@
             </div>
           </div>
           <div class="step-text-bottom">
-            <div style="width: 400px;">
-              <div class="blurb-list-item dark">Install agents on Linux, Windows and Mac.  We expect that you will need agents for other platforms and we are ready to receive your request.  Just let us know what you need.</div>
-            </div>
+            <div class="blurb-list-item blurb-text dark">Install agents on Linux, Windows and Mac.  We expect that you will need agents for other platforms and we are ready to receive your request.  Just let us know what you need.</div>
           </div>
           <br><br>
           <div class="step-instructions">
@@ -162,9 +154,7 @@
             </div>
           </div>
           <div class="step-text-bottom">
-            <div style="width: 400px;">
-              <div class="blurb-list-item dark">The saas glue agent is small enough to fit on IoT devices and simple enough to run on legacy platforms.  There are no local dependencies that restrict where the agent can be installed.</div>
-            </div>
+            <div class="blurb-list-item blurb-text dark">The saas glue agent is small enough to fit on IoT devices and simple enough to run on legacy platforms.  There are no local dependencies that restrict where the agent can be installed.</div>
           </div>
 
           <br><br>
@@ -174,9 +164,7 @@
             </div>
           </div>
           <div class="step-text-bottom">
-            <div style="width: 400px;">
-              <div class="blurb-list-item dark">Call the saas glue API to auto-install the agent as you spin up containers and VMs.  Auto-assign tags to your agents to prepare them to execute their intended jobs.</div>
-            </div>
+            <div class="blurb-list-item blurb-text dark">Call the saas glue API to auto-install the agent as you spin up containers and VMs.  Auto-assign tags to your agents to prepare them to execute their intended jobs.</div>
           </div>
         </div>
       </div>
@@ -200,9 +188,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">If your network is set up for Internet access through HTTPS then you are ready to go.  The agent will automatically create a secure connection to the saas glue cloud. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">If your network is set up for Internet access through HTTPS then you are ready to go.  The agent will automatically create a secure connection to the saas glue cloud. </div>
               </div>
               <br><br>
               <div class="step-instructions">
@@ -211,9 +197,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">Integrate across network types including on-prem to on-prem, hybrid clouds (on-prem to cloud) and multi-cloud (cloud to cloud).  No firewall changes are required for cloud/agent communication. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">Integrate across network types including on-prem to on-prem, hybrid clouds (on-prem to cloud) and multi-cloud (cloud to cloud).  No firewall changes are required for cloud/agent communication. </div>
               </div>
 
               <br><br>
@@ -223,9 +207,7 @@
                 </div>
               </div>
               <div class="step-text-bottom">
-                <div style="width: 400px;">
-                  <div class="blurb-list-item white">Integrate SaaS applications and other services into your end-to-end process automation with scripts that call SaaS application APIs. </div>
-                </div>
+                <div class="blurb-list-item blurb-text white">Integrate SaaS applications and other services into your end-to-end process automation with scripts that call SaaS application APIs. </div>
               </div>
             </div>
           </div>

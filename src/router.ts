@@ -2,6 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import HowItWorks from './views/HowItWorks.vue';
+import Why from './views/Why.vue';
+import Pricing from './views/Pricing.vue';
 
 Vue.use(Router);
 
@@ -18,6 +20,16 @@ export default new Router({
       path: '/how',
       name: 'how',
       component: HowItWorks
+    },
+    {
+      path: '/why',
+      name: 'why',
+      component: Why
+    },
+    {
+      path: '/pricing',
+      name: 'pricing',
+      component: Pricing
     },
     {
       path: '/about',
