@@ -118,6 +118,9 @@ export default class App extends Vue {
       case '/how':
         this.splashMessage = `Any Script<br>Any Device<br>Anywhere`;
         break;
+      case '/why':
+        this.splashMessage = `Fill the gaps in your<br>process automation`;
+        break;
       default:
         this.splashMessage = `Integrate Anything<br>Automate Everything`;
     }
