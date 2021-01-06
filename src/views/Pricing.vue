@@ -49,9 +49,13 @@
             0
           </div>
           <div class="pricing-cents">
-            00
+            01
+          </div>
+          <div class="per-script">
+            per script
           </div>
         </div>
+
         <div class="pricing-list-container">
           <div class="pricing-list">
             <div class="pricing-list-item">
@@ -188,6 +192,11 @@ export default class Pricing extends Vue {
     justify-content: center;
   }
 
+  .per-script {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+
   .pricing-list {
     display: flex;
     flex-direction: column;
@@ -212,7 +221,7 @@ export default class Pricing extends Vue {
   }
 
   .try-it-button {
-    
+
   }
 
 </style>
