@@ -60,15 +60,15 @@
           <div class="pricing-list">
             <div class="pricing-list-item">
               <img src="Checkmark.png" width="20" class="check">
-              Run unlimited scripts from the web console
+               Create unlimited jobs
             </div>
             <div class="pricing-list-item">
               <img src="Checkmark.png" width="20" class="check">
-              Create unlimited agents
+               Schedule jobs
             </div>
             <div class="pricing-list-item">
               <img src="Checkmark.png" width="20" class="check">
-              Store unlimited scripts
+              Launch jobs through the API
             </div>
           </div>
         </div>
