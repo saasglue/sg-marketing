@@ -89,7 +89,7 @@
     
     <div class="footer">
       <div class="footer-left">
-        &#169; 2020, saas glue LLC​
+        &#169; 2021, saas glue LLC​
       </div>
       <div class="footer-right">
         Contact us
@@ -159,6 +159,7 @@ a {
   text-align: center;
 }
 
+/* Mobile */
 @media (max-width: 1230px) {
   .big-menu {
     display: none;
@@ -206,7 +207,7 @@ a {
   }
 }
 
-
+/* Desktop */
 @media (min-width: 1230px) {
   .big-menu {
     display: block;
@@ -518,6 +519,8 @@ a {
 .step-instructions {
   display: flex;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 15px;
 }
 
 .step-text {
@@ -529,8 +532,8 @@ a {
 
 .step-text-bottom {
   margin-top: 30px;
+  margin-left: 20px;
   color: white;
-  width: 400px;
 }
 
 .step-text-bottom-dark {
