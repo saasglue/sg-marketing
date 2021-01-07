@@ -138,7 +138,7 @@ export default class App extends Vue {
 
 
 body {
-  font-family: 'Nunito Sans', 'Avenir';
+  font-family: 'Open Sans', 'Avenir';
 }
 
 html, body {
@@ -168,7 +168,13 @@ a {
     display: block;
   }
   .main-top {
-    height: 425px;
+    height: 350px;
+  }
+  .splash-message {
+    margin-top: 50px;
+    font-weight: 800; 
+    font-size: 30px;  
+    letter-spacing: 2px;
   }
   .blurb-spacer {
     width: 10px;
@@ -216,7 +222,13 @@ a {
     display: none;
   }
   .main-top {
-    height: 625px;
+    height: 675px;
+  }
+  .splash-message {
+    margin-top: 100px;
+    font-weight: 800; 
+    font-size: 90px;  
+    letter-spacing: 2px;
   }
   .blurb-spacer {
     width: 400px;
@@ -338,13 +350,8 @@ a {
 }
 
 .splash-message {
-  font-size: calc(20px + 3vw);
   text-align: left;
-  letter-spacing: 3px;
-  margin-top: 100px;
-  font-weight: 700;    
   color: white;
-  text-shadow: 0px 2px 1px rgb(150, 148, 148), 0px -2px 1px rgb(150, 148, 148), 2px 0px 1px rgb(150, 148, 148), -2px 0px 1px rgb(150, 148, 148);  
 }
 
 .banner {
