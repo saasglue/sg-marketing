@@ -15,7 +15,7 @@
             <router-link to="/how" class="burger-popup-link" @click.native="hideBurgerPopup=true">How it works</router-link>
             <router-link to="/why" class="burger-popup-link" @click.native="hideBurgerPopup=true">Why saas glue?</router-link>
             <router-link to="/pricing" class="burger-popup-link" @click.native="hideBurgerPopup=true">Pricing</router-link>
-            <router-link to="/resources" class="burger-popup-link" @click.native="hideBurgerPopup=true">Resources</router-link>
+            <router-link to="/docs" class="burger-popup-link" @click.native="hideBurgerPopup=true">Docs</router-link>
             <span class="burger-popup-spacer"></span>
             <a href="https://console.saasglue.com" class="burger-popup-link round-button">
               Login
@@ -51,8 +51,8 @@
               <span v-if="isRouterLinkActive('/pricing')" class="menu-selected">.</span>
               <router-link to="/pricing" class="main-nav-link">Pricing</router-link>
 
-              <span v-if="isRouterLinkActive('/resources')" class="menu-selected">.</span>
-              <router-link to="/resources" class="main-nav-link">Resources</router-link>
+              <span v-if="isRouterLinkActive('/docs')" class="menu-selected">.</span>
+              <router-link to="/docs" class="main-nav-link">Docs</router-link>
 
               <span class="main-nav-spacer"></span>
               <a href="https://console.saasglue.com" class="main-nav-link round-button">
@@ -92,7 +92,7 @@
         &#169; 2021, saas glue LLC​
       </div>
       <div class="footer-right">
-        Contact us
+        <router-link to="/contact" class="main-nav-link">Contact us</router-link>
       </div>
     </div>
   </div>
@@ -123,6 +123,12 @@ export default class App extends Vue {
         break;
       case '/pricing':
         this.splashMessage = `Free for basic use<br>Simple pricing`;
+        break;
+      case '/contact':
+        this.splashMessage = `Contact Us<br>Fill out the form below`;
+        break;
+      case '/docs':
+        this.splashMessage = `Docs<br>Always Improving`;
         break;
       default:
         this.splashMessage = `Integrate Anything<br>Automate Everything`;

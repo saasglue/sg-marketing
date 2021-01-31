@@ -4,6 +4,8 @@ import Home from './views/Home.vue';
 import HowItWorks from './views/HowItWorks.vue';
 import Why from './views/Why.vue';
 import Pricing from './views/Pricing.vue';
+import Contact from './views/Contact.vue';
+import Docs from './views/Docs.vue';
 
 Vue.use(Router);
 
@@ -30,6 +32,16 @@ export default new Router({
       path: '/pricing',
       name: 'pricing',
       component: Pricing
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
+    },
+    {
+      path: '/docs',
+      name: 'docs',
+      component: Docs
     },
     {
       path: '/about',
