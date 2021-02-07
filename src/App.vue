@@ -125,7 +125,7 @@ export default class App extends Vue {
         this.splashMessage = `Free for basic use<br>Simple pricing`;
         break;
       case '/contact':
-        this.splashMessage = `Contact Us<br>Fill out the form below`;
+        this.splashMessage = `Contact Us<br>Send as an email`;
         break;
       case '/docs':
         this.splashMessage = `Docs<br>Always Improving`;
